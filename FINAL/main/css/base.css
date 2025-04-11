@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #FEFAF6;
+}
+:root {
+    --backgroundColor1: #252422;
+    --backgroundColor2: #f5f2f0;
+    
+    
+    --fontColor1: #f5f4f0;
+    --fontSubColor1: #b8b6b4;
+    --fontColor2: #2e2c2c;
+    --fontSubColor2: #696866;
+
+    --colorMainW: #f7504d;
+    --colorMainB: #f54c4c;
+
+
+    --fontSizeHeading: 24px;
+    --fontSize: 16px;
+
+    --widthCategories: 200px;
+
+}
+
+.border_radius_4px {
+    border-radius: 4px;
+}
+
+.b_right_radius_6px {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.b_left_radius_6px {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+

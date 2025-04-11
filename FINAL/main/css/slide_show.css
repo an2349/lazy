@@ -1,0 +1,64 @@
+/* Slideshow Styles */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    max-height: 70vh;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Navigation buttons */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* Đảm bảo chỉ ảnh đầu tiên được hiển thị khi modal mở */
+.modal .slide:first-child {
+    display: block;
+}
