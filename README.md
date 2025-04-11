@@ -1,1 +1,1 @@
-# lazy
+cảm ơn các bạn đã gánh
